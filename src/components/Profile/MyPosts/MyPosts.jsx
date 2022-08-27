@@ -9,7 +9,6 @@ const MyPosts = () => {
             <div>
                 <textarea></textarea>
                 <button>Add Post</button>
-                <button>Remove Post</button>
             </div>
             <div className={styles.posts}>
                 <Post message="This is my first post"/>
