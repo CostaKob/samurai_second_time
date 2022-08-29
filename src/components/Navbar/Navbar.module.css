@@ -2,3 +2,13 @@
   grid-area: n;
   background-color: Gray;
 }
+
+.item {
+  margin-left: 10px;
+  padding-top: 10px;
+}
+
+.item a {
+  color: white;
+  text-decoration: none;
+}
