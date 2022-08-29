@@ -1,14 +1,21 @@
-.nav {
+.navWrapper {
   grid-area: n;
   background-color: Gray;
 }
 
-.item {
-  margin-left: 10px;
-  padding-top: 10px;
+.nav {
+  padding: 10px;
 }
 
-.item a {
-  color: white;
+nav a {
   text-decoration: none;
+}
+
+.item {
+  color: white;
+}
+
+.activeLink {
+  color: gold;
+  font-weight: bold;
 }
